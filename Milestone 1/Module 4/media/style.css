@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+table{
+
+    border-collapse: collapse;
+    text-align: center;
+    font-size: large;
+    
+}
+td{
+    border: 1px solid salmon;
+    padding: 5px 15px 10px 15px;
+}
+th{
+    border: 1px solid salmon;
+}
+
+nav ul{
+    display: flex;
+    
+}
+
+nav li{
+    list-style: none;
+    margin: 0px 5px;
+    padding: 5px;
+   
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav li:hover{
+    background-color: rgb(30, 210, 84);
+}
+
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: rgb(45, 42, 38);
+    padding-left: 0px;
+    
+}
+
+nav li:hover > .dropdown{
+    display: block;
+}

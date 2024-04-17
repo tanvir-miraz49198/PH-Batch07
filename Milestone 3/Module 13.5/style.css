@@ -1,0 +1,19 @@
+.icon1, .icon2, .icon3{
+    width: 5vw;
+    height: 10vh;
+    border-radius: 50%;
+    position: relative;
+    bottom: 50px;
+    left: 90px;
+}
+.bg1, .bg2, .bg3{
+    width: 10vw;
+    height: 20vh;
+}
+
+.gili{
+    height: 80vh;
+    width: 50vw;
+   place-items: center;
+   
+}
